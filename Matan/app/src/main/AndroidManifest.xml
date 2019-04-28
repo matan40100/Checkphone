@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matan.matan">
+    <!-- Allows access to the vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Allows access to the flashlight -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera" /> <!-- Allows access to the fingerprint reader -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Allows access to the accelerometer reader -->
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".webview"></activity>
+        <activity
+            android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".vibration_page" />
+        <activity android:name=".charger_page" />
+        <activity android:name=".flashlight_page" />
+        <activity android:name=".speaker_page" />
+        <activity android:name=".fingerprint_page" />
+        <activity android:name=".fingerprint_page_2" />
+        <activity android:name=".volume_button_page" />
+        <activity android:name=".proximity_page" />
+        <activity android:name=".gyroscope_page" />
+        <activity android:name=".light_page" />
+        <activity android:name=".gyroscope_page_2" />
+    </application>
+
+</manifest>

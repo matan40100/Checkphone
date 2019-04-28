@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/simpleTableLayout"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"> <!-- stretch the second column of the layout-->
+
+
+   <include
+       android:id="@+id/toolbar"
+       layout="@layout/toolbar" />
+    <TextView
+        android:id="@+id/hardware"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/gradient_status"
+        android:text="Hardware" />
+
+    <TableRow
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/flashlight_icon"
+            android:layout_weight="1"
+            android:onClick="Move_flashlight"
+            android:background="@drawable/gradient_flashlight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:padding="15dp"
+            app:srcCompat="@drawable/flashlight_64" />
+
+
+        <ImageButton
+            android:id="@+id/speaker_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_speaker"
+            android:layout_height="wrap_content"
+            android:onClick="Move_speaker"
+            android:padding="15dp"
+            app:srcCompat="@drawable/speaker_64" />
+
+
+        <ImageButton
+            android:id="@+id/vibration_icon"
+            android:onClick="Move_vibration"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_vibrtion"
+            android:padding="15dp"
+            app:srcCompat="@drawable/vibrate_64" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/flashlight"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_flashlight"
+            android:background="@drawable/gradient_flashlight"
+            android:text="Flashlight" />
+
+        <TextView
+            android:id="@+id/speaker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_speaker"
+            android:background="@drawable/gradient_speaker"
+            android:text="Speaker" />
+
+        <TextView
+            android:id="@+id/vibration"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_vibration"
+            android:background="@drawable/gradient_vibrtion"
+            android:text="Vibration" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/secondRow"
+        android:paddingTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:id="@+id/charger_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="Move_charger"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_charger"
+            android:padding="15dp"
+            app:srcCompat="@drawable/charger_64" />
+
+        <ImageButton
+            android:id="@+id/fingerprint_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="Move_fingerprint"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/gradient_fingerprint"
+            app:srcCompat="@drawable/fingerprint_64" />
+
+        <ImageButton
+            android:id="@+id/botton_icon"
+            android:background="@drawable/gradient_buttons"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="Move_volume_button"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            app:srcCompat="@drawable/volume_64" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/charger"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:onClick="Move_charger"
+            android:background="@drawable/gradient_charger"
+            android:text="Charger" />
+
+        <TextView
+            android:id="@+id/fingerprint"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_fingerprint"
+            android:background="@drawable/gradient_fingerprint"
+            android:text="Fingerprint" />
+
+        <TextView
+            android:id="@+id/gps"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_volume_button"
+            android:background="@drawable/gradient_buttons"
+            android:text="Boutton" />
+
+
+    </TableRow>
+    <TextView
+        android:id="@+id/sensors"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/gradient_status"
+        android:text="Sensors" />
+    <TableRow
+        android:id="@+id/thirdRow"
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/light_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="Move_light"
+            android:padding="15dp"
+            android:background="@drawable/gradient_light"
+            app:srcCompat="@drawable/light_64" />
+
+        <ImageButton
+            android:id="@+id/gyroscope_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="Move_gyroscope"
+            android:padding="15dp"
+            android:background="@drawable/gradient_gyroscope"
+            app:srcCompat="@drawable/gyroscope_64" />
+        <ImageButton
+            android:id="@+id/proximity_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="Move_proximity"
+            android:background="@drawable/gradient_proximity"
+            android:padding="15dp"
+            app:srcCompat="@drawable/proximity_64" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/light"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_light"
+            android:background="@drawable/gradient_light"
+            android:text="Light" />
+
+        <TextView
+            android:id="@+id/gyroscope"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_gyroscope"
+            android:background="@drawable/gradient_gyroscope"
+            android:text="Gyroscope" />
+        <TextView
+            android:id="@+id/proximity"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:onClick="Move_proximity"
+            android:background="@drawable/gradient_proximity"
+            android:text="Proximity" />
+
+    </TableRow>
+
+
+    //SPEC//
+
+    <TableRow
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_status"
+            android:text="Company:" />
+        <TextView
+            android:id="@+id/brandname"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_status" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp">
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_status"
+            android:text="Model:" />
+        <TextView
+            android:id="@+id/devicemodel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_status" />
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:paddingTop="5dp">
+        <TextView
+            android:id="@+id/sdk"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_status"
+            android:text="Version:" />
+        <TextView
+            android:id="@+id/sdkname"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gradient_status" />
+    </TableRow>
+
+
+        <Button
+            android:id="@+id/html"
+            android:onClick="Move_html"
+            android:text="HTML"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:layout_marginTop="15px"
+            />
+
+
+
+
+
+</TableLayout>

@@ -1,0 +1,4 @@
+#Sat Mar 30 12:07:21 IDT 2019
+base.0=C\:\\Matan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

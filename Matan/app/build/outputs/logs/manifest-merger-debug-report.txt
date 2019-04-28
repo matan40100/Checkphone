@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\8a14e754f73494094013486c8ddac81e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\df88b4085ba4f28e2622f2bb2efe7113\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:gridlayout-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.0.2.aar\8855ebe5a18700da6f9ab2dccb21f151\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\e88bff78044141d231e7b1e0fec2fac2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\729bd47526c2d91ed9b29a00dffe2b20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b8a59afffa2d93332ffcda99227b0bcb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\218b85ddd0ecb404a4ae01f5beffb601\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\33b06411e7c79f78f14ff21eb8c5fcce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\0569529d2359dcced2b787523e2a43ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\3607859862a31e5a25f4443efd119add\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\ea0092a405ca9674aa21c54341673373\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4cdb6774209841bbff702ea07721396a\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:5:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:6:22-66
+uses-permission#android.permission.INTERNET
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:7:22-64
+uses-feature#android.hardware.camera
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:9:19-57
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:11:22-71
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:12:19-71
+application
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:14:5-43:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\df88b4085ba4f28e2622f2bb2efe7113\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\df88b4085ba4f28e2622f2bb2efe7113\AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:18:9-45
+	android:supportsRtl
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:21:9-40
+activity#com.example.matan.matan.webview
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:22:9-54
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:22:19-42
+activity#com.example.matan.matan.Splashscreen
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:23:9-30:20
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.matan.matan.MainActivity
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:31:9-50
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:31:19-47
+activity#com.example.matan.matan.vibration_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:32:9-52
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:32:19-49
+activity#com.example.matan.matan.charger_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:33:9-50
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:33:19-47
+activity#com.example.matan.matan.flashlight_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:34:9-53
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:34:19-50
+activity#com.example.matan.matan.speaker_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:35:9-50
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:35:19-47
+activity#com.example.matan.matan.fingerprint_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:36:9-54
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:36:19-51
+activity#com.example.matan.matan.fingerprint_page_2
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:37:9-56
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:37:19-53
+activity#com.example.matan.matan.volume_button_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:38:9-56
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:38:19-53
+activity#com.example.matan.matan.proximity_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:39:9-52
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:39:19-49
+activity#com.example.matan.matan.gyroscope_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:40:9-52
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:40:19-49
+activity#com.example.matan.matan.light_page
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:41:9-48
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:41:19-45
+activity#com.example.matan.matan.gyroscope_page_2
+ADDED from C:\Matan\app\src\main\AndroidManifest.xml:42:9-54
+	android:name
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml:42:19-51
+uses-sdk
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\8a14e754f73494094013486c8ddac81e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\8a14e754f73494094013486c8ddac81e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\df88b4085ba4f28e2622f2bb2efe7113\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\df88b4085ba4f28e2622f2bb2efe7113\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:gridlayout-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.0.2.aar\8855ebe5a18700da6f9ab2dccb21f151\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.0.2.aar\8855ebe5a18700da6f9ab2dccb21f151\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\e88bff78044141d231e7b1e0fec2fac2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\e88bff78044141d231e7b1e0fec2fac2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\729bd47526c2d91ed9b29a00dffe2b20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\729bd47526c2d91ed9b29a00dffe2b20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b8a59afffa2d93332ffcda99227b0bcb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b8a59afffa2d93332ffcda99227b0bcb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\218b85ddd0ecb404a4ae01f5beffb601\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\218b85ddd0ecb404a4ae01f5beffb601\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\33b06411e7c79f78f14ff21eb8c5fcce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\33b06411e7c79f78f14ff21eb8c5fcce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\0569529d2359dcced2b787523e2a43ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\0569529d2359dcced2b787523e2a43ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\3607859862a31e5a25f4443efd119add\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\3607859862a31e5a25f4443efd119add\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\ea0092a405ca9674aa21c54341673373\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\ea0092a405ca9674aa21c54341673373\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4cdb6774209841bbff702ea07721396a\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Matan\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4cdb6774209841bbff702ea07721396a\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
+		ADDED from C:\Matan\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Matan\app\src\main\AndroidManifest.xml
