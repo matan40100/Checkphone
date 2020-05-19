@@ -1,7 +1,7 @@
-#Tue May 19 11:20:24 IDT 2020
-base.0=C\:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Tue May 19 11:25:10 IDT 2020
+base.0=C\:\\Users\\Matan\\Desktop\\GitHub\\CheckPhone\\CheckPhone\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\Matan\\Desktop\\GitHub\\CheckPhone\\CheckPhone\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

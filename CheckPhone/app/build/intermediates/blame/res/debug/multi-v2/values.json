@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Matan\\Desktop\\GitHub\\CheckPhone\\CheckPhone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "170",
-                        "startColumns": "4",
-                        "startOffsets": "8796",
-                        "endColumns": "56",
-                        "endOffsets": "8848"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Matan\\.gradle\\caches\\transforms-2\\files-2.1\\901ad1c97179c683d6e762f6eee8244f\\gridlayout-v7-27.0.2\\res\\values\\values.xml",
                     "from": {
@@ -133,7 +116,43 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\CheckPhone\\CheckPhone\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "374"
+                    },
+                    "to": {
+                        "startLines": "387",
+                        "startColumns": "4",
+                        "startOffsets": "23210",
+                        "endLines": "392",
+                        "endColumns": "12",
+                        "endOffsets": "23522"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\CheckPhone\\CheckPhone\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "170",
+                        "startColumns": "4",
+                        "startOffsets": "8796",
+                        "endColumns": "56",
+                        "endOffsets": "8848"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\CheckPhone\\CheckPhone\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
@@ -150,7 +169,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\CheckPhone\\CheckPhone\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1,2",
                         "startColumns": "4,4",
@@ -164,25 +183,6 @@
                         "startOffsets": "22557,22605",
                         "endColumns": "47,38",
                         "endOffsets": "22600,22639"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "374"
-                    },
-                    "to": {
-                        "startLines": "387",
-                        "startColumns": "4",
-                        "startOffsets": "23210",
-                        "endLines": "392",
-                        "endColumns": "12",
-                        "endOffsets": "23522"
                     }
                 }
             ]
