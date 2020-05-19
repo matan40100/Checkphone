@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Matan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
+            "outputFile": "C:\\Users\\Matan\\Desktop\\GitHub\\Checkphone\\Matan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Matan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\ea0092a405ca9674aa21c54341673373\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\Matan\\.gradle\\caches\\transforms-2\\files-2.1\\3434b172a7005ce00d31765ac8d8bf51\\support-compat-27.0.2\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Matan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\8a14e754f73494094013486c8ddac81e\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\Matan\\.gradle\\caches\\transforms-2\\files-2.1\\25e9acbd0d4f1bb946cd20262e6c2cc3\\appcompat-v7-27.0.2\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
